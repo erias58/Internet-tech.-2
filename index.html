@@ -1,38 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <title>
-        ERIAS LUBEGA
-    </title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erias Lubega</title>
+</head>
     <body>
         <header>
+           <main>
             <h1>LUBEGA ERIAS</h1>
-            <ul>
+            <!-- <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Contacts</a></li>
                 <li><a href="#">Address</a></li>
-            </ul>
+            </ul> -->
         </header>
-        <img src="R.jpg" alt="Image of Erias" width="200" height="300" >
-        <p>
+        <p></p>
             I am a muslim young man currently persueing my diploma 
             in Computer Science at <a href="https://www.cavendish.ac.ug/">
-            Carvendish University</a> <br>with adream of reducing the 
-            number of imported software engineers in Uganda.
+            Carvendish University</a> <br>with adream of 
+            becoming a software developer in Uganda.
         </p>
+        <img src="R.jpg" alt="Image of Erias" width="200" height="300" ><br><br>
+        <a href="fav-page.htm" target="_blank"><b>Link To The Favorite Website</b></a><br>
+        
         <br><br>
-            <form action="submit" method="post">
-                <h3>
-                    You can reach me via....!!!
-                </h3>
-                <label for="First Name">First Name:</label><br>
-                <input type="text" id="fName" placeholder="First Name"><br>
-                <label for="Last Name">Last Name:</label><br>
-                <input type="text" id="lName" placeholder="Last Name"><br>
-                <label for="submit">Submit Request:</label><br>
-                <input type="submit" placeholder="submit">
-            </form> <br>
+           </main>
+            <section>
+                <form action="submit" method="post">
+                    <h3>
+                        You can reach me via....!!!
+                    </h3>
+                    <label for="First Name">First Name:</label><br>
+                    <input type="text" id="fName" placeholder="First Name" required><br>
+                    <label for="Last Name">Last Name:</label><br>
+                    <input type="text" id="lName" placeholder="Last Name" required><br>
+                   <label for="email" id="email">Email:</label><br>
+                   <input type="email" id="email" placeholder="Email Address" required><br><br>
+                    <input type="submit" value="SUBMIT">
+                </form> <br>
+            </section>
             <footer>
-                &copy;2024
+                Copy right &copy;2024
             </footer>
     </body>
 </html>
