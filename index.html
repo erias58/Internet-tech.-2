@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erias Lubega</title>
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
 </head>
 <body>
     <header>
@@ -27,16 +28,46 @@
                     <input type="text" id="lName" placeholder="Last Name" required><br>
                     <label for="email" id="email">Email:</label><br>
                     <input type="email" id="email" placeholder="Email Address" required><br><br>
-                    <input type="radio" name="Uganda" id="Uganda" value="best_country">
+                    
                     
                     <!-- radio tag -->
-                    <label for="Uganda">Uganda</label><br>
-                    <input type="radio" name="kenya" id="kenya" value="best_country">
-                    <label for="Kenya">Kenya</label><br><br>
+                    <input type="radio" id="Uganda" name="best_country">
+                    <label for="Uganda">Uganda</label> <br>
+                    <input type="radio" id="kenya" name="best_country">
+                    <label for="kenya">kenya</label><br>
+                    <input type="radio" name="best_country" id="Tanzania">
+                    <label for="Tanzania">Tanzania</label><br><br>
+
+                    <!-- checkbox -->
+                    <input type="checkbox" id="Uganda" name="best_country">
+                    <label for="Uganda">Uganda</label> <br>
+                    <input type="checkbox" id="kenya" name="best_country">
+                    <label for="kenya">kenya</label><br>
+                    <input type="checkbox" name="best_country" id="Tanzania">
+                    <label for="Tanzania">Tanzania</label><br><br>
                     <input type="submit" value="SUBMIT">
-                </form><br>
+                    
+                </form><br> <br>
+                    <!-- colors as input -->
+                <form action="submit"  method="post">
+                    <label for="color_black">Black</label>
+                    <input type="color" id="color_black" name="black"> <br><br>
+                    <label for="color_blue"> blue</label>
+                    <input type="color" id="color_blue" name="blue">
+                </form><br><br>
+                <!-- Dates as input -->
+
+                <form action="submit" method="post">
+                    <label for="date and time ">Date</label>
+                    <input type="datetime-local" value="Time_now" name="Time_now">
+                </form><br><br>
+                <!-- min and max numbers -->
+                <form action="submit">
+                    <label for="numbers">Select Numbers</label>
+                    <input type="number" min="2" max="10" step="2" id="numbers">
+                </form>
             </section>
-            </main>
+            </main><br>
             <footer>
                 Copy right &copy;2024
             </footer>
