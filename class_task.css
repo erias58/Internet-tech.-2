@@ -1,0 +1,32 @@
+body{
+    background-color: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+/* genera styling for boxes */
+div{
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+}
+/* styling for box1 */
+.BOX1{
+    background-color: rgb(234, 8, 8);
+    border: 10px solid blue;
+    border-radius: 10px;
+
+} 
+.BOX2{
+    background-color: chocolate;
+    border-top: 10px dashed rgb(194, 57, 11);
+}
+.BOX3{
+    border: 10px double red;
+    background-color: bisque;
+}
+.BOX4{
+    background-color: white;
+    border: dotted;
+    box-shadow: 10px 10px 10px hsla(120, 100%, 50%, 0.3);
+}
