@@ -1,13 +1,32 @@
-body{
+/* body{
     background-color: lightgray;
     /* background-image:url(/erias.jpg); */
     /* background: no-repeat; */
     /* make the image not scroll with the content */
-    background-attachment: fixed;
-}
+    /* background-attachment: fixed; }
 section{
     background-color: rgb(184, 144, 94);
     border-width: 2px;
     border-style: solid;
 
+} */
+.UserName{
+    text-align: center;
+    position:relative;
+    border: 500px;
+    background-color: greenyellow;
+    width: 50%;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 10px;
 }
+
+#radioCountries {
+text-align: center;
+position: relative;
+background-color: yellow;
+width: 50%;
+height: fit-content;
+border-radius: 10px;
+}
+
