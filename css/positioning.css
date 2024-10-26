@@ -1,0 +1,33 @@
+.parent{
+    border: 2px solid black;
+    /* position: relative; */
+    position: fixed;
+}
+.box{
+    border: 2px dashed blue;
+}
+#one, #two,#three{
+    margin-bottom: 5px;
+    /* display: inline; */
+    position: static;
+}
+
+ #two{ /*Absolute position (the parent has to be relative) */
+    top: 50px;
+    left: 50px;
+    background-color: green;
+    position: absolute;
+
+
+}
+
+#three{
+    background-color: blue;
+    position:sticky;
+
+}
+
+#one {
+    background-color: yellow;
+}
+
