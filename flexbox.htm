@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX BOX</title>
+    <style>
+        body{
+            margin:0%;
+
+        }
+        .flexcontainer{
+            display: flex;
+            justify-content: space-between;
+            /* justfy content is about space distribution */
+            background-color: blue;
+            /* short hand   for flex*/
+            flex-flow: wrap row;
+            /* flex-wrap: wrap; */
+            /* flex-direction: column */
+            /* its used in responsiveness */
+            /* this changes the flexbox contents to column */
+            align-content: space-between;
+            
+        }
+        .flexitem{
+            background-color: rgb(234, 219, 200);
+            padding: 20px;
+            margin: 5px;
+        }
+        /* div + p{
+            sibling selectors
+            font-size: xx-large;
+        } */
+    </style>
+</head>
+<body>
+    <div class="flexcontainer">
+        <div class="flexitem">
+                1
+        </div>
+        <!-- <p>
+            hello world 
+        </p> -->
+        <div class="flexitem">
+                2
+        </div>
+        <div class="flexitem">
+                3
+        </div>
+        <div class="flexitem">4</div>
+        <DIV class="flexitem">DIV5</DIV>
+        <DIV class="flexitem">DIV6</DIV>
+        <DIV class="flexitem">DIV7</DIV>
+        <DIV class="flexitem">DIV8</DIV>
+        <DIV class="flexitem">DIV9</DIV>
+        <DIV class="flexitem">DIV10</DIV>
+        <DIV class="flexitem">DIV11</DIV>
+        <DIV class="flexitem">DIV12</DIV>
+        <DIV class="flexitem">DIV13</DIV>
+        <DIV class="flexitem">DIV14</DIV>
+    </div>
+</body>
+</html>

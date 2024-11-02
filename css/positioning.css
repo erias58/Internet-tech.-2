@@ -1,33 +1,62 @@
-.parent{
+/* .parent{
     border: 2px solid black;
     /* position: relative; */
-    position: fixed;
-}
-.box{
+/*.box{
     border: 2px dashed blue;
 }
-#one, #two,#three{
+/*#one, #two,#three{
     margin-bottom: 5px;
     /* display: inline; */
-    position: static;
-}
 
- #two{ /*Absolute position (the parent has to be relative) */
-    top: 50px;
-    left: 50px;
-    background-color: green;
-    position: absolute;
-
-
-}
-
-#three{
+/*#three{
     background-color: blue;
     position:sticky;
 
-}
+}*/
 
-#one {
+/*#one {
     background-color: yellow;
+} */
+body{
+    background-color: rgb(171, 161, 161);
+    position: static;
+    
+}
+/* .z-index{
+    width: 500px;
+    height: 500px;
+}
+div{
+    padding-inline: 50px;
+    width: 20%;
+    height: 20%;
+} */
+
+#CARD1{
+    background-color: blue;
+    /* display: inline; */
+    width: 200PX;
+    height: 200px;
+    border: solid, orange;
+    position: relative;
 }
 
+#CARD2{
+    background-color: pink;
+    /* display: inline; */
+    width: 200px;
+    height: 200px;
+    border: solid,yellow;
+    position: relative;
+    /* z-index: 1px; */
+}
+
+#CARD3{
+    background-color: aquamarine;
+    /* display: inline; */
+    width: 200px;
+    height: 200px;
+    border:solid,purple;
+    z-index: 3px;
+    position: relative;
+}
